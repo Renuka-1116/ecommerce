@@ -33,6 +33,7 @@ Order placement
 
 📁 Project Structure
 /project-folder
+
 │── admin/              # Admin related files
 
 │── index.php           # Home page
