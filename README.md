@@ -313,8 +313,13 @@ Answer: The system removes the product entry from the products table, making it 
 This section explains how the website ensures security.
 
 5.1. How are passwords secured?
+
 Answer: Passwords are hashed using password_hash() before being stored in the database.
+
 5.2. How is session management handled?
+
 Answer: Sessions track logged-in users ($_SESSION['user_id'] for customers, $_SESSION['admin_id'] for admins) to restrict access to sensitive pages.
+
 5.3. How is admin access secured?
+
 Answer: Admin login checks the role field in the users table to ensure only admins can access the control panel.
