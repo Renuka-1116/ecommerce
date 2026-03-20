@@ -119,6 +119,7 @@ Update quantity
 
 📌 Database Design
 Users Table
+
 CREATE TABLE users (
 
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -146,6 +147,7 @@ CREATE TABLE products (
 );
 
 Cart Table
+
 CREATE TABLE cart (
     id INT AUTO_INCREMENT PRIMARY KEY,
     
@@ -153,8 +155,7 @@ CREATE TABLE cart (
     
     product_id INT,
     
-    quantity INT
-    
+    quantity INT    
 );
 
 📌 Working of the Project
