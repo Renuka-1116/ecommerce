@@ -94,6 +94,7 @@ Data is fetched/stored in MySQL database
 Response is displayed to the user
 
 📌 Modules Description
+
 🔐 User Module
 
 Registration
@@ -116,34 +117,44 @@ Remove from cart
 
 Update quantity
 
-💳 Order Module
-
-Checkout
-
-Place order
-
 📌 Database Design
 Users Table
 CREATE TABLE users (
+
     id INT AUTO_INCREMENT PRIMARY KEY,
+    
     name VARCHAR(100),
+    
     email VARCHAR(100),
+    
     password VARCHAR(255)
 );
+
 Products Table
+
 CREATE TABLE products (
+
     id INT AUTO_INCREMENT PRIMARY KEY,
+    
     name VARCHAR(100),
+    
     price INT,
+    
     description TEXT,
+    
     image VARCHAR(255)
 );
+
 Cart Table
 CREATE TABLE cart (
     id INT AUTO_INCREMENT PRIMARY KEY,
+    
     user_id INT,
+    
     product_id INT,
+    
     quantity INT
+    
 );
 
 📌 Working of the Project
