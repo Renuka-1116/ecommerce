@@ -34,14 +34,23 @@ Order placement
 📁 Project Structure
 /project-folder
 │── admin/              # Admin related files
+
 │── index.php           # Home page
+
 │── login.php           # User login
+
 │── register.php        # User registration
+
 │── logout.php          # Logout
+
 │── cart.php            # Shopping cart
+
 │── db.php              # Database connection
+
 │── style.css           # Styling
+
 │── product1.jpg ...    # Product images
+
 │── README.md           # Project documentation
 
 📌 Technologies Used
